@@ -1,0 +1,22 @@
+nav{
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorEnlaces{
+    font-family: "Inter";
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.contenedorEnlaces a{
+    color: black;
+    text-decoration: none;
+}
