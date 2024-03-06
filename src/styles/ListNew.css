@@ -1,0 +1,28 @@
+#Titulo {
+    font-size: 24px;
+    color:darkorange;
+    background-color: black;
+    
+}
+
+#Subtitulo {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+
+hr {
+    height: 1px;
+    background-color: lightslategray;
+    
+}
+
+#MiniParrafo {
+    font-size: 10px;
+    color: lightslategray;
+    background-color: black;
+}
+
+* {
+    font-family: "Inter";
+}
