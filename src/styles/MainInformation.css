@@ -1,0 +1,29 @@
+#hero{
+    display: flex;
+    gap: 30px;
+}
+
+#hero .descripcion{
+    width: 80%;
+}
+#hero .descripcion h1{
+    font-family: "Interbold";
+    font-size: 60px;
+    margin: 0;
+}
+#hero .descripcion .eseContenedorBello{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+#hero .descripcion .bajada{
+    width: 70%;
+}
+#hero .descripcion .bajada p{
+    font-size: 20px;
+}
+
+#hero .descripcion img{
+    width: 100%;
+}

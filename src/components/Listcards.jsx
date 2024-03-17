@@ -6,7 +6,7 @@ export default function Listcards (){
 
     return  <section className="presentacion-tarjetas">
 
-    <article className="tarjeta">
+    <article className="tarjeta bajada">
 
       <img src={image1} alt="" />
       <div >

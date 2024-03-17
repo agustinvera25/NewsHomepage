@@ -1,17 +1,16 @@
 .presentacion-tarjetas{
+    font-family: "Inter";
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;/*hace lo posible por colocarlo al lado,
+    /*flex-wrap: wrap;/*hace lo posible por colocarlo al lado,
                     pero si no entra lo pone abajo*/
 }
 
 .tarjeta{
     display: flex;
+    align-items: center;
     padding-top: 50px;
- 
-    
-    
 }
 
 .tarjeta img{
@@ -20,22 +19,29 @@
 }
 
 .tarjeta div{
-    width: 220px;
-    height: 200px;
-    padding-left: 20px;
-   
+    /* width: 220px;
+    height: 200px; */
+    padding-left: 20px;  
 }
 
 .tarjeta h2, p{
     color: rgb(200, 196, 196);
-
+}
+.tarjeta p{
+    width: 80%;
+}
+.tarjeta h2{
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 .tarjeta h3{
-    font-family:Interbold;
-
+    font-family: "Interbold";
+    margin: 8px 0;
 }
-    
 
-    
-   
-
+@media (max-width: 768px) {
+    .presentacion-tarjetas{
+        display: grid;
+    }
+}

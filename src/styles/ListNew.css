@@ -1,28 +1,45 @@
-#Titulo {
+.listNewContenedor{
+    background-color: black;
+    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    padding: 20px;
+}
+
+/* .listNewContenedor #Titulo {
     font-size: 24px;
     color:darkorange;
-    background-color: black;
     
 }
-
-#Subtitulo {
+.listNewContenedor #Subtitulo{
     font-size: 15px;
     color: white;
-    background-color: black;
 }
-
-hr {
-    height: 1px;
-    background-color: lightslategray;
-    
-}
-
 #MiniParrafo {
     font-size: 10px;
     color: lightslategray;
-    background-color: black;
+} */
+
+.listNewContenedor h2 {
+    font-size: 32px;
+    color:darkorange;
+    margin-top: 0;
 }
 
-* {
-    font-family: "Inter";
+.listNewContenedor h3{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.listNewContenedor p {
+    font-size: 14px;
+    color: lightslategray;
+}
+hr {
+    height: 1px;
+    background-color: lightslategray;
+    margin: 30px 0;
 }
